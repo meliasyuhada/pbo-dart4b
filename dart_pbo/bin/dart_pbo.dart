@@ -1,6 +1,10 @@
-import 'package:dart_pbo/dart_pbo.dart' as dart_pbo;
 import 'dart:io';
 
 void main(List<String> arguments) {
-  print('Hello world: ${dart_pbo.calculate()}!');
+  List<int> myList = [];
+  List<int> list = [1,2,3];
+
+  for (int index = 0; index < list.length; index += 1){
+    
+  }
 }
