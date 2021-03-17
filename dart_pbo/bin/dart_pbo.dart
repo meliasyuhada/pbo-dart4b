@@ -4,7 +4,11 @@ void main(List<String> arguments) {
   List<int> myList = [];
   List<int> list = [1,2,3];
 
-  for (int bilangan in list){
+  // for (int bilangan in list){
+  //   print(bilangan);
+  // }
+
+  list.forEach((bilangan) {
     print(bilangan);
-  }
+  });
 }
