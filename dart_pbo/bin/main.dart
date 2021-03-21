@@ -8,7 +8,7 @@ void main(List<String> args) {
   kotak1 = new PersegiPanjang();
   kotak1.panjang = 2;
   kotak1.lebar = 3;
-
+ 
   kotak2 = PersegiPanjang();
   kotak2.panjang = double.tryParse(stdin.readLineSync());
   kotak2.lebar = double.tryParse(stdin.readLineSync());
