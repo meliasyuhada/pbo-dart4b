@@ -15,16 +15,18 @@ main(List<String> args) {
   monsters.add(Monsterkecoa());
   monsters.add(MonsterUburUbur());
 
-  for (Monster m in monsters) {
-    print(m.eatHuman());
-  }
+  print((monsters as MonsterUburUbur).swim());
 
-  h.healthPoint = -10;
-  m.healthPoint = 10;
+  // for (Monster m in monsters) {
+  //   print(m.eatHuman());
+  // }
 
-  print("hero HP: " + h.healthPoint.toString());
-  print("monster HP: " + m.healthPoint.toString());
-  print(h.killAMonster());
-  print(u.eatHuman());
-  print(u.swim());
+  // h.healthPoint = -10;
+  // m.healthPoint = 10;
+
+  // print("hero HP: " + h.healthPoint.toString());
+  // print("monster HP: " + m.healthPoint.toString());
+  // print(h.killAMonster());
+  // print(u.eatHuman());
+  // print(u.swim());
 }
