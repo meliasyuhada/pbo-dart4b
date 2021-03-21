@@ -15,11 +15,11 @@ main(List<String> args) {
   monsters.add(Monsterkecoa());
   monsters.add(MonsterUburUbur());
 
-  print((monsters as MonsterUburUbur).swim());
 
-  // for (Monster m in monsters) {
-  //   print(m.eatHuman());
-  // }
+
+  for (Monster m in monsters) {
+    print(m.move());
+  }
 
   // h.healthPoint = -10;
   // m.healthPoint = 10;
